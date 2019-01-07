@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-int a;
+int a,b;
 int main()
-{   a=5;
-    printf("a=%d\n",a);
+{   printf("a=?\n");
+    scanf("%d",&a);
+    printf("b=?\n");
+    scanf("%d",&b);
+    printf("a*b=%d\n",a*b);
     return 0;
 }
