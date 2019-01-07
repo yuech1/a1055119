@@ -3,9 +3,10 @@
 double a,b;
 int main()
 {   printf("a=?\n");
-    scanf("%d",&a);
+    scanf("%lf",&a);
     printf("b=?\n");
-    scanf("%d",&b);
-    printf("a/b=%lf\n",a/b);
+    scanf("%lf",&b);
+    printf("a+b=%lf\n",a+b);
+    printf("a-b=%lf\n",a-b);
     return 0;
 }
